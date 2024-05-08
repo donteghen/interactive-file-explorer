@@ -1,0 +1,31 @@
+{
+    "name": "interactive-file-explorer-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "type": "module",
+    "directories": {
+        "test": "test",
+        "src": "dev"
+    },
+    "scripts": {
+        "format": "prettier --write src test",
+        "start": "node src/index.js",
+        "test": "mocha",
+        "dev": "nodemon --exec \"npm run format && npm run start\""
+    },
+    "keywords": [],
+    "author": "Donald Tgehen",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^5.1.0",
+        "mocha": "^10.4.0",
+        "nodemon": "^3.1.0",
+        "prettier": "^3.2.5"
+    },
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "fs-extra": "^11.2.0",
+        "inquirer": "^9.2.20"
+    }
+}
