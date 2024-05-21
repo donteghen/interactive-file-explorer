@@ -4,7 +4,7 @@ const fse = require('fs-extra');
 const path = require('path');
 
 const {prompt} = require('../config');
-const { pathToRootDirectory } = require('./constants');
+const { pathToRootDirectory } = require('../utils');
 const {getAllDirectories, getAllFilesSync, getdirOrFileFromPath, getAndSortAllFilesSync} = require('../utils');
 
 

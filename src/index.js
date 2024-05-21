@@ -1,7 +1,10 @@
-const { displayWelcomeMessage, handleInitialPrompt } = require('./helpers');
+const { displayWelcomeMessage, handleInitialPrompt } = require('./core');
 
 // Call functions to display welcome message and initial prompt
-displayWelcomeMessage();
-handleInitialPrompt();
+function main () {
+    displayWelcomeMessage();
+    handleInitialPrompt();
+}
 
+main();
 

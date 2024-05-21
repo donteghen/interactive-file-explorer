@@ -1,7 +1,7 @@
 const fse = require('fs-extra');
 const chalk = require('chalk');
 const { continueWithDirectoryInteraction } = require('./directoryNavigation');
-const { pathToRootDirectory } = require('./constants');
+const { pathToRootDirectory } = require('../utils');
 const {prompt} = require('../config');
 
 // Function to create a new directory
